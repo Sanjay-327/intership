@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Opportunities</title>
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Internship Opportunities</h1>
+    </header>
+
+    <h2>Current Openings</h2>
+
+    <section class="container1">
+        
+        <div class="internship-card">
+            <img src="webdev.webp" alt="Internship Position 1">
+            <div class="internship-details">
+                <h3>Web Development Intern</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod.</p>
+                <a href="#">Apply Now</a>
+            </div>
+        </div>
+
+        <div class="internship-card">
+            <img src="graphic des.jpg" alt="Internship Position 2">
+            <div class="internship-details">
+                <h3>Graphic Design Intern</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod.</p>
+                <a href="#">Apply Now</a>
+            </div>
+        </div>
+
+        <!-- Add more internship cards as needed -->
+
+    </section>
+
+    <section class="container2">
+        <h2>Enter New Opportunity</h2>
+        <form id="internshipForm">
+            <label for="position">Position:</label>
+            <input type="text" id="position" name="position" placeholder="Enter the field of internship..." required>
+
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" placeholder=" details including stipend..."></textarea>
+
+            <button type="button" onclick="addOpportunity()">Add Opportunity</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Internship Opportunities</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
